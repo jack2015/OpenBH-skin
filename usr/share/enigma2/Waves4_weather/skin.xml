@@ -834,10 +834,10 @@ Pls Read skin info
 <convert type="PliExtraInfo">VideoCodec</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="1540,1004" size="210,40" font="Regular;24" foregroundColor="#ffffff" backgroundColor="transpBlack" halign="left" transparent="1">
-<convert type="VNetSpeedInfo">RC</convert>
+<convert type="OpenEcmInfo">vbitrate</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="1540,1004" size="210,40" font="Regular;24" foregroundColor="#ffffff" backgroundColor="transpBlack" halign="right" transparent="1">
-<convert type="VNetSpeedInfo">TM</convert>
+<convert type="OpenEcmInfo">abitrate</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="145,1004" size="435,30" halign="center" font="Regular;24" zPosition="4" transparent="1" backgroundColor="transpBlack">
 <convert type="PliExtraInfo">CryptoSpecial</convert>

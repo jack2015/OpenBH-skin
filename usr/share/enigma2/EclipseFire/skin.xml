@@ -821,10 +821,10 @@ Pls Read skin info
 <convert type="ClockToText">Format:%d.%m.%Y</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="1655,261" size="205,30" font="Regular;24" foregroundColor="button" backgroundColor="transpBlack" halign="left" transparent="1">
-<convert type="VNetSpeedInfo">RC</convert>
+<convert type="OpenEcmInfo">vbitrate</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="1655,261" size="205,30" font="Regular;24" foregroundColor="button" backgroundColor="transpBlack" halign="right" transparent="1">
-<convert type="VNetSpeedInfo">TM</convert>
+<convert type="OpenEcmInfo">abitrate</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="1010,261" size="600,30" halign="right" font="Regular;24" zPosition="4" transparent="1" backgroundColor="transpBlack">
 <convert type="PliExtraInfo">TransponderInfo</convert>

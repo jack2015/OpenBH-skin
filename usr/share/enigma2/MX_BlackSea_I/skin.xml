@@ -823,10 +823,10 @@ Pls Read skin info
 <convert type="PliExtraInfo">VideoCodec</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="1450,209" size="210,40" font="Regular;24" foregroundColor="white" backgroundColor="#101d1d1d" halign="left" transparent="1">
-<convert type="VNetSpeedInfo">RC</convert>
+<convert type="OpenEcmInfo">vbitrate</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="1450,209" size="210,40" font="Regular;24" foregroundColor="white" backgroundColor="#101d1d1d" halign="right" transparent="1">
-<convert type="VNetSpeedInfo">TM</convert>
+<convert type="OpenEcmInfo">abitrate</convert>
 </widget>
 <widget source="session.CurrentService" render="Label" position="75,209" size="435,30" halign="center" font="Regular;24" zPosition="4" transparent="1" backgroundColor="#101d1d1d">
 <convert type="PliExtraInfo">CryptoSpecial</convert>
